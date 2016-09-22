@@ -1,0 +1,71 @@
+/* Viktor Nasioula's configuration*/
+
+/* unvisited link */
+
+/*a{
+	border: 1px solid black;
+
+}*/
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+/* visited link, mouse over link */
+a:visited, a:hover {
+    color: white;
+}
+
+#config_header_nav{
+	background-color:#48ade3;
+}
+
+/*when mouse hovers, menu drops down*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+
+#config_dropdown{
+	background-color: #48ade3;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-default {
+    border-color: #48ade3;
+}
+
+.header_media{
+	height:55px ;
+	width: 50px;
+}
+
+/*removes the upper left padding*/
+.navbar {
+	border:none;
+}
+
+
+#header_logo{
+	height:75px ;
+	width: 80px;
+}
+
+.config_content{
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 0;
+}
+
+
+
+/*media queries*/
+@media (min-width: 992px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {

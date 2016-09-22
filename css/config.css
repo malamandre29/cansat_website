@@ -1,12 +1,99 @@
-/* Viktor Nasioula's configuration*/
+*{
+	box-sizing: border-box;
+}
 
-/* unvisited link */
 
-/*a{
-	border: 1px solid black;
+/*gives us all the header to play*/
+div.container-fluid{
+	margin:0;
+	padding:0;
+	/*border:1px solid black;*/
+}
 
-}*/
+/*fixing bootstrap defaults*/
+#header-nav{
+	background-color: #48ade3;
+	border-radius: 0;
+	border:0;
+}
 
+#dropdown-nav{
+	background-color: #48ade3;
+	/*border-radius: 0;*/
+	border:0;
+}
+
+
+/*logo box*/
+#logo-box{
+	position: relative;	
+	/*background-color: white;*/
+	background-color:#48ade3;
+	height: 55px;
+	/*border: 1px solid black;*/
+	/*top:10px;*/
+	/*left:10px;*/
+	
+}
+
+/*logo image*/
+#logo-img{
+	position: absolute;
+	/*top:  10px;*/
+	left: 0;
+	width: 60%;
+	height: 100%;
+	/*border: 1px solid black;*/
+}
+
+#logo-img1{
+	position: absolute;
+	top:  0;
+	left: 10px;
+	width: 30%;
+	height: 45%;
+	/*border: 1px solid black;*/
+}
+
+
+#logo-img2{
+	position: absolute;
+	top:  0;
+	right:  10px;
+	width: 30%;
+	height: 40%;
+	/*border: 1px solid black;*/
+}
+
+
+#logo-img3{
+	position: absolute;
+	/*top:  10px;*/
+	bottom:  0px;
+	right: 10px;
+	width: 30%;
+	height: 45%;
+	/*border: 1px solid black;*/
+}
+
+#logo-img4{
+	position: absolute;
+	/*top:  10px;*/
+	bottom:  0px;
+	left: 10px;
+	width: 30%;
+	height: 45%;
+	/*border: 1px solid black;*/
+}
+
+
+.navbar-buttons{
+	margin-top: 15px; /*putting buttons in center of navbar*/
+	color: white;
+	/*border:1px solid black;*/
+}
+
+/*removing style from link*/
 a:link {
 	text-decoration: none;
 	color: white;
@@ -17,55 +104,33 @@ a:visited, a:hover {
     color: white;
 }
 
-#config_header_nav{
-	background-color:#48ade3;
-}
-
 /*when mouse hovers, menu drops down*/
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
 
-
-#config_dropdown{
-	background-color: #48ade3;
-}
-
-.navbar {
-    border-radius: 0px;
-}
-
-.navbar-default {
-    border-color: #48ade3;
-}
-
-.header_media{
-	height:55px ;
-	width: 50px;
-}
-
-/*removes the upper left padding*/
-.navbar {
-	border:none;
-}
-
-
-#header_logo{
-	height:75px ;
-	width: 80px;
-}
-
-.config_content{
-	border: 1px solid black;
-	font-size: 20px;
-	padding: 0;
+.dropdown-menu > li > a{
+	color: white;
 }
 
 
 
-/*media queries*/
-@media (min-width: 992px) {}
-@media (min-width: 768px) and (max-width: 991px) {}
-@media (max-width: 767px) {}
-@media (min-width: 768px) and (max-width: 991px) {
+
+/* Sticky footer styles*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
