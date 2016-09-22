@@ -81,7 +81,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 .footer {
   position: absolute;
@@ -89,7 +89,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
 }
 /* Sticky footer styles --> end*/
 
@@ -130,13 +130,13 @@ body {
 }
 
 #slider-container{
-	border:1px solid red;
 	background-color: blue;
+	/*border:1px solid red;*/
 }
 
 
 #slider-container .container {
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 
@@ -169,3 +169,38 @@ body {
 }
 /*news between horizontal line*/
 
+
+
+.info{
+	
+}
+
+/*οδηγιες συμμετοχης*/
+.outside{
+	height: 200px;
+	display: table;
+}
+
+.inside{
+	height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.sap{
+	border: 1px solid white;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+/*οδηγιες συμμετοχης*/
+
+
+.takis{
+	max-width: 50%;
+	border:1px solid black;
+}
+
+.row{
+	border:1px solid black;
+}
