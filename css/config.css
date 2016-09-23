@@ -204,3 +204,48 @@ body {
 .row{
 	border:1px solid black;
 }
+
+
+/*quote*/
+.quote{
+	height: 200px;
+	background-image: url('../images/quote.jpg');
+	background-size: 100% 150%;
+	background-repeat: no-repeat;
+	background-position: center 10%;
+}
+/*quote*/
+
+.container.quote{
+	height: 200px;
+	display: table;
+	width: 100%;
+	
+}
+
+.quotation{
+	height: 100%;
+	display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color: white;
+    font-size: 1.5em;
+    z-index: 50;
+}
+
+
+#footer_master {
+    background-color: #3a3a3a;
+    width: inherit;
+    padding: 10px;
+}
+
+
+.footer-heads{
+	color: white;
+	font-size: 1.5em;
+}
+
+td{
+	padding: 10px;
+}
