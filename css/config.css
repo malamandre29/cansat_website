@@ -205,6 +205,57 @@ body {
 	border:1px solid black;
 }
 
+/*newsletter_start*/
+#social{
+	height: 250px;
+	background-color: purple;
+}
+
+
+
+
+.logos{
+	height: 35px;
+	width: 40px;
+	border:1px solid white;
+}
+
+
+/*social box*/
+#social .container {
+  text-align: center;
+}
+
+#social .container ul {
+	margin: 20px 10px 20px 20px;
+	padding: 0;
+}
+
+#social .container ul li {
+	display: inline-block;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+#social div div > p{
+	margin: 10px 0px -10px 0px; 
+}
+
+
+#media-div{
+	position: relative;
+}
+
+
+
+
+/*newsletter_end*/
+
+
+
+
+
+
 
 /*quote*/
 .quote{
@@ -214,8 +265,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center 10%;
 }
-/*quote*/
 
+/*quote*/
 .container.quote{
 	height: 200px;
 	display: table;
@@ -249,3 +300,5 @@ body {
 td{
 	padding: 10px;
 }
+
+
